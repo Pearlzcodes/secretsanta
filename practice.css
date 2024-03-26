@@ -82,3 +82,11 @@ h1 {
 p {
     color: gold;
 }
+
+form {
+    font-size:  1.2em;
+}
+
+input {
+    font-size: 1.2em;
+}
