@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    font-family: Tahoma;
+
+}
+
+
+
+input {
+    margin: 4px;
+}
+
+#resultPanel {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 10%;
+    left: 10%;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    animation: popup 0.5s;
+    z-index: 100;
+}
+
+#resultDisplay {
+    background-color: white;
+    color:purple;
+    
+    
+}
+
+#cancelbutton {
+   background-color: purple;
+   color: white;
+   border: none;
+   padding: 5px 10px;
+   border-radius: 5px;
+}
+
+button {
+    padding: 2px 5px;
+    border: none;
+    border-radius: 2px;
+    color: purple;
+    font-weight: bolder;
+}
+
+button:active {
+    font-size: 1.1em;
+}
+
+
+
+ #cancelbutton:hover {
+    background-color: rgb(251, 251, 251);
+    color: purple;
+    border: 1px solid purple;
+   font-weight: bolder;
+ }
+
+ #cancelbutton:active {
+    background-color: rgb(251, 251, 251);
+    color: red;
+    border: 1px solid red;
+   font-weight: bolder;
+ }
+ 
+
+h1 {
+    color: gold;
+}
+
+
+@keyframes popup {
+    from{transform: translateY(150%)}
+}
+
+p {
+    color: gold;
+}

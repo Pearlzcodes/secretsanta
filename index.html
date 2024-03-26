@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practice.css">
+   
+</head>
+<body>
+   <h1>Secret Santa by Pearls</h1>
+   <p>Input names of participants below! Use - and + buttons to decrease and increase the number of participants respectively. Click on submit after filling all fields.</p>
+   <form id="santaNames" action="">
+
+    <label for="participant1">Participant 1</label>
+    <input id="participant1" type="text">
+
+
+
+   </form>
+<br>
+
+<button onclick="removeParticipant()" >-</button>
+   <button onclick=" addParticipant()" id="addButton" >+</button>
+   
+   <button onclick="assignParticipant()">Submit</button>
+   <a href="practice.html"><button>Reload</button></a>
+
+   <div id="resultPanel">
+   <div id="resultDisplay"></div>
+
+<button onclick="cancelDisplay()" id="cancelbutton">Okay</button>
+</div>
+
+
+<div>
+  </div>
+
+<footer>
+    <p>If Secret Santa is a Secret, what happens when my Santa fails to give me a gift after I have given someone else? This Secret Santa Programme makes the results visible to 'certain people' who moderate the entire process. It celebrates the beauty of gifts and the mystery of the giver.</p>
+
+    <p>Pearls made use of the best randomization techniques ever discovered: you can be sure that the results are as random as possible and cannot be rigged</p>
+
+    <hr>&copy; Programmed by Pearls, 2024</footer>
+
+    <script src="practice.js"></script>
+   
+</body>
+</html>
